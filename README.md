@@ -28,6 +28,7 @@
 Schemat tagowania 'sha+latest' jest najbardziej rekomendowanym schematem w dokumentacji Docker i innych zaufanych źródłach:
 - **Docker Docs** ([Build, tag, and publish an image](https://docs.docker.com/get-started/docker-concepts/building-images/build-tag-and-publish-an-image/))
 - **Microsoft Azure Container Registry** ([Image Tag Best Practices](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-image-tag-version))
+
 Z tych źródeł wynika, że ten schemat tagowania:
 - Zapewnia wygodę dostępu do najnowszej wersji (latest)
 - Umożliwia wygodne audyty, rollbacki i identyfikacje wersji (sha)
