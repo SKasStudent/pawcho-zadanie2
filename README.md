@@ -23,6 +23,7 @@
 |sha-<short_hash>| Hash który posiada każdy commit - jest unikalny dla każdej wersji |
 |latest| Zawsze wskazuje na najnowszy build |
 |cache| Stały tag używany przy cache'u |
+
 **Uzadadnienie:**
 Schemat tagowania 'sha+latest' jest najbardziej rekomendowanym schematem w dokumentacji Docker i innych zaufanych źródłach:
 - **Docker Docs** ([Build, tag, and publish an image](https://docs.docker.com/get-started/docker-concepts/building-images/build-tag-and-publish-an-image/))
