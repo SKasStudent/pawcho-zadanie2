@@ -76,6 +76,6 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=registry,ref=${{ env.CACHE_IMAGE }}:cache
-          cacbe-to: type=registry,ref=${{ env.CACHE_IMAGE }}:cache,mode=max
+          cache-to: type=registry,ref=${{ env.CACHE_IMAGE }}:cache,mode=max
         
        
